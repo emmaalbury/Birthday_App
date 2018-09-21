@@ -1,3 +1,20 @@
 <h1 style= font-size:80px>
   Hello there!
 </h1>
+
+<% if @name %>
+<h2 style= font-size:40px>
+  What's your name?</h2>
+<% end %>
+<form action="/greeting">
+  <input type="text" name="name">
+  <input type="submit" value="Go!">
+</form>
+
+<h2 style= font-size:40px>
+  When's your birthday?
+</h2>
+
+<div>
+
+</div>
